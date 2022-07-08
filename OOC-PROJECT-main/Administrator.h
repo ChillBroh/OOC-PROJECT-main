@@ -6,6 +6,7 @@
 
 class Administrator : public User
 {
+
 private:
     char Admin_ID[10];
 
