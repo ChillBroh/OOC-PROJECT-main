@@ -5,6 +5,7 @@ using namespace std;
 
 Administrator::Administrator()
 {
+
     strcpy(Admin_ID, "");
 }
 Administrator::Administrator(char a_username[], char a_pass[], char a_ID[])
