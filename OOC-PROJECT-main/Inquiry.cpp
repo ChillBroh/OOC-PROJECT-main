@@ -18,6 +18,7 @@ Inquiry::Inquiry(char inq[],char phone[], char mail[],char descript[]){
 }
 void Inquiry::showInq(){
       cout << inqID << endl << phoneNo << endl << email << endl << description << endl;
+      
 }
 Inquiry::~Inquiry(){
   
