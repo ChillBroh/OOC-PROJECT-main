@@ -13,19 +13,24 @@ using namespace std;
 
 
 int main() {
+
   //data insert to registered user
+
 	Registered_user* regUser = new Registered_user("chillbroh", "1234", "U0001", "Ishara", "Galle", "1998/06/14", "0766859740", "male", "ishara410@gmail.com", "mr");
   cout << "Details of User : " << endl;
   regUser->display(); //display registered user details
   cout << endl;
   
  //data insert to manager
+
   Manager *manage = new Manager("Ehani01","Ehani123","M0001");
   cout << "Details of Manager : " << endl;
   manage->display(); //display manager details
   cout << endl << endl;
 
+
   //date insert to tour guide
+  
   Tour_Guide *tG = new Tour_Guide("Dileep", "Dileep123","TG0001");
   cout << "Details of Tour_Guide : " << endl;
   tG->display(); //display tour guide details
